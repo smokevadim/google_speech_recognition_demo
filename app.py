@@ -4,7 +4,6 @@ import speech_recognition as sr
 
 # obtain path to "english.wav" in the same folder as this script
 from os import path
-import os
 
 AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "audio\\FM935M_20181122_0530_m2.wav")
 
